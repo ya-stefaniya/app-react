@@ -513,7 +513,20 @@ header{
     font-size: 11px;
     }
     .back{
-      left:1rem;
+        left:1rem;
+    }
+    .buttons-start {
+        .main-screen {
+            .start-options {
+            flex-direction: column;
+            .start-hard{
+                .button-icons::before{
+                left: -14rem;
+                }
+            }
+        }
+        }
+
     }
     .container{
         margin: 0 5rem;
